@@ -1,0 +1,89 @@
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #heroSlider .carousel-caption {
+    top: 28rem;
+  }
+  #heroSlider .carousel-caption h1 {
+    font-size: 3.625em;
+  }
+  #heroSlider .carousel-caption button {
+    margin-top: 8em;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ Extra large devices (large laptops and desktops, 1200px and up) view ============ */
+/*
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: #eb0009;
+  }
+}*/
+/* ============ Extra large devices (large laptops and desktops, 1200px and up) .end ============ */
+
+/* ============ mobile view ============ */
+@media only screen (max-width: 991px) {
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+  }
+  /*#heroSlider .carousel-caption {
+    top: 1rem;
+  }*/
+  #heroSlider .carousel-caption h1 {
+    font-size: 1.5em;
+  }
+  #heroSlider .carousel-caption button {
+    margin-top: 1em;
+  }
+}
+/* ============ mobile view .end// ============ */
+
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) { 
+}*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #heroSlider .carousel-caption {
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  #heroSlider .carousel-caption h1 {
+    font-size: 3.625em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+  #heroSlider .carousel-caption {
+    /*top: 1rem;*/
+    align-items: center;
+    justify-content: center;
+  }
+  #heroSlider .carousel-caption h1 {
+    font-size: 3.625em;
+  }
+  #heroSlider .carousel-caption button {
+    margin-top: 5em;
+  }
+}
