@@ -227,11 +227,27 @@ footer span.divider {
 /* ============ home .end// ============ */
 
 /* ============ contact ============ */
+.bgftContact {
+  background: url("../img/bg.png") center bottom no-repeat;
+  background-size: cover;
+}
+.bgftContact h2,
+.bgContact h3 {
+  color: #0c0c0c;
+}
+
 .bgContact {
   background-color: #f8f8f8;
-  background-image: src("img/bgContact.png");
   border-radius: 4;
   border: 1px solid #d9d9d9;
 }
+.bgContactInfo {
+  background: url("../img/bg-contact.png") center bottom no-repeat;
+  padding: 2em 2em 2em 8em;
+  text-align: left;
+}
 
+.bgContactInfo a {
+  color: #fff;
+}
 /* ============ contact .end// ============ */
