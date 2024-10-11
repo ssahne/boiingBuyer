@@ -1,3 +1,8 @@
+/* ============ Extra large devices (large laptops and desktops, 1200px and up) view ============ */
+/*
+ 
+/* ============ Extra large devices (large laptops and desktops, 1200px and up) .end ============ */
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
   .navbar .has-megamenu {
@@ -21,15 +26,6 @@
   }
 }
 /* ============ desktop view .end// ============ */
-
-/* ============ Extra large devices (large laptops and desktops, 1200px and up) view ============ */
-/*
-@media only screen and (min-width: 1200px) {
-  body {
-    background-color: #eb0009;
-  }
-}*/
-/* ============ Extra large devices (large laptops and desktops, 1200px and up) .end ============ */
 
 /* ============ mobile view ============ */
 @media only screen (max-width: 991px) {
