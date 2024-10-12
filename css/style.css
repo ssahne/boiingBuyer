@@ -235,19 +235,31 @@ footer span.divider {
 .bgContact h3 {
   color: #0c0c0c;
 }
-
 .bgContact {
   background-color: #f8f8f8;
   border-radius: 4;
   border: 1px solid #d9d9d9;
 }
+
 .bgContactInfo {
   background: url("../img/bg-contact.png") center bottom no-repeat;
-  padding: 2em 2em 2em 8em;
+  /*padding: 3em 2em 4em 8em;*/
   text-align: left;
 }
-
+.bgContactInfo a > p {
+  font-size: 1em;
+  line-height: 1.2em;
+}
 .bgContactInfo a {
   color: #fff;
+  font-size: 1em;
 }
+.bgContactInfo a:hover {
+  color: #d9d9d9;
+}
+
+.bgContactInfo .icon-link > .bi {
+  font-size: 1.75em;
+}
+
 /* ============ contact .end// ============ */

@@ -24,6 +24,15 @@
   #heroSlider .carousel-caption button {
     margin-top: 8em;
   }
+
+  .bgContactInfo {
+    padding: 0 3em 0;
+    min-height: 210px;
+  }
+
+  .bgContactInfo .icon-link > .bi {
+    font-size: 1em;
+  }
 }
 /* ============ desktop view .end// ============ */
 
@@ -44,17 +53,28 @@
   #heroSlider .carousel-caption button {
     margin-top: 1em;
   }
+  .bgContactInfo {
+    background-size: contain;
+    padding: 0 3em 3em 1em;
+  }
 }
 /* ============ mobile view .end// ============ */
 
-/* Extra small devices (phones, 600px and down) 
-@media only screen and (max-width: 600px) { 
-}*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bgContactInfo {
+    padding: 5em 3em 0;
+    min-height: 300px;
+  }
+  #soc-icons {
+    margin-top: 10px;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (min-width: 600px) {...}*/
+@media only screen and (min-width: 600px) {..}*/
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape, tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #heroSlider .carousel-caption {
     top: 50%;
@@ -63,6 +83,26 @@
   }
   #heroSlider .carousel-caption h1 {
     font-size: 3.625em;
+  }
+  .bgftContact {
+    height: 80vh;
+  }
+  .bgContact > h3 {
+    font-size: 1.25em;
+  }
+  .bgContactInfo {
+    background-size: cover;
+    padding: 20px;
+  }
+  .bgContactInfo .icon-link > .bi {
+    font-size: 1em;
+  }
+  .bgContactInfo {
+    padding: 30px;
+  }
+  #soc-icons {
+    padding-top: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -81,5 +121,17 @@
   }
   #heroSlider .carousel-caption button {
     margin-top: 5em;
+  }
+
+  .bgContactInfo {
+    background: url("../img/bg-contact.png") center bottom no-repeat;
+    padding: 5em 2em 2em 7em;
+    min-height: 300px;
+  }
+  .bgContactInfo .icon-link > .bi {
+    font-size: 2em;
+  }
+  #soc-icons .icon-link > .bi {
+    font-size: 1.5em;
   }
 }
